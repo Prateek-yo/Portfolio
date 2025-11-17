@@ -1,0 +1,33 @@
+/* .chat{
+    min-height: 100vh;
+    background-color: aqua;
+    display: grid;
+    place-items: center;
+} */
+
+.chat {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(270deg, #00dbde, #0072ff);
+  background-size: 400% 400%;
+  animation: oceanFlow 8s ease infinite;
+  color: white;
+}
+
+@keyframes oceanFlow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+
+.chat-container {
+  width: 90vw;          
+  height: 90vh;         
+  max-width: none;      
+  background-color: aliceblue;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  border-radius: 10px;
+}

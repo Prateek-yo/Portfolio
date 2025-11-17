@@ -1,0 +1,16 @@
+{
+  "name": "sql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon sql.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mysql2": "^3.14.5",
+    "sudo": "^1.0.3"
+  }
+}
